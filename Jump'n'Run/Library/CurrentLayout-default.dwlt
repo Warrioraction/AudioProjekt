@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 613}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 613}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 563}
   m_MaxSize: {x: 22006, y: 14042}
   vertical: 0
-  controlID: 1650
+  controlID: 128
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 635, y: 563}
   m_MaxSize: {x: 18005, y: 14042}
   vertical: 1
-  controlID: 1651
+  controlID: 129
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 635, y: 442}
   m_MaxSize: {x: 18005, y: 10021}
   vertical: 0
-  controlID: 1652
+  controlID: 130
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 442}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 0
-  controlID: 1624
+  controlID: 21
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 1715
+  controlID: 69
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -509,9 +509,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 205.49164, y: 201.56946, z: -159.59158}
+    m_Target: {x: 261.85876, y: 84.66002, z: -159.4036}
     speed: 2
-    m_Value: {x: 205.49164, y: 201.56946, z: -159.59158}
+    m_Value: {x: 261.85876, y: 84.66002, z: -159.4036}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -643,9 +643,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 986f0000
-      m_LastClickedID: 28568
-      m_ExpandedIDs: 5ebcffff90bcffff2abeffff36beffff4cbeffff60beffffb0beffff48c0ffffb46f0000de6f0000e26f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d0dcffff36deffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -707,21 +707,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Pixel Adventure 1/Scenes
+    - Assets/Scenes
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 61
   m_LastFolders:
-  - Assets/Pixel Adventure 1/Scenes
+  - Assets/Scenes
   m_LastFoldersGridSize: 61
-  m_LastProjectPath: C:\Users\Marty\Desktop\Studium\Audio\reponew\Jump'n'Run
+  m_LastProjectPath: D:\AudioProjekt\Jump'n'Run
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 34430000
-    m_LastClickedID: 17204
-    m_ExpandedIDs: 00000000024300000443000006430000084300000a4300000c43000018430000824400008c44000000ca9a3b
+    m_SelectedIDs: f8410000
+    m_LastClickedID: 16888
+    m_ExpandedIDs: 00000000b2410000b6410000b8410000ba410000bc410000be410000c2410000cc410000ce41000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -749,7 +749,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000024300000443000006430000084300000a4300000c43000018430000824400008c44000000ca9a3b
+    m_ExpandedIDs: 00000000b2410000b4410000b6410000b8410000ba410000bc410000be410000c0410000c2410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
