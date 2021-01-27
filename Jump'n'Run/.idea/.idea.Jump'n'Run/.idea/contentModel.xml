@@ -8,6 +8,10 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterController2D.cs" t="Include" />
+          <e p="Parallax.cs" t="Include" />
+          <e p="SC_BackgroundScaler.cs" t="Include" />
+          <e p="SC_MainMenu.cs" t="Include" />
+          <e p="SC_Settings.cs" t="Include" />
         </e>
       </e>
       <e p="Jump'n'Run.sln" t="IncludeFlat" />
