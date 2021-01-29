@@ -7,11 +7,21 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="CharacterController2D.cs" t="Include" />
-          <e p="Parallax.cs" t="Include" />
-          <e p="SC_BackgroundScaler.cs" t="Include" />
-          <e p="SC_MainMenu.cs" t="Include" />
-          <e p="SC_Settings.cs" t="Include" />
+          <e p="Audio" t="Include">
+            <e p="AudioMixerGroupFade.cs" t="Include" />
+          </e>
+          <e p="Level" t="Include">
+            <e p="MovingPlatform.cs" t="Include" />
+            <e p="Parallax.cs" t="Include" />
+          </e>
+          <e p="Menus" t="Include">
+            <e p="SC_BackgroundScaler.cs" t="Include" />
+            <e p="SC_MainMenu.cs" t="Include" />
+            <e p="SC_Settings.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="CharacterController2D.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Jump'n'Run.sln" t="IncludeFlat" />
