@@ -11,7 +11,13 @@ public class CharacterController2D : MonoBehaviour
     public float maxSpeed = 3.4f;
     public float jumpHeight = 6.5f;
     public float gravityScale = 1.5f;
+    public float maxCameraXLeft;
+    public float maxCameraXRight;
+    public float backgroundScrollingSpeed;
+    public float backgroundY;
+    public float backgroundZ;
     public Camera mainCamera;
+    public GameObject background;
 
     bool facingRight = true;
     float moveDirection = 0;
@@ -62,6 +68,7 @@ public class CharacterController2D : MonoBehaviour
                 facingRight = true;
                 t.localScale = new Vector3(Mathf.Abs(t.localScale.x), t.localScale.y, transform.localScale.z);
             }
+
             if (moveDirection < 0 && facingRight)
             {
                 facingRight = false;
@@ -78,7 +85,8 @@ public class CharacterController2D : MonoBehaviour
         // Camera follow
         if (mainCamera)
         {
-            mainCamera.transform.position = new Vector3(t.position.x, cameraPos.y, cameraPos.z);
+            if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
+              mainCamera.transform.position = new Vector3(t.position.x, cameraPos.y, cameraPos.z);
         }
     }
 
@@ -105,6 +113,11 @@ public class CharacterController2D : MonoBehaviour
 
         // Apply movement velocity
         r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
+        if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
+        {
+            var position = transform.position;
+            background.transform.position = new Vector3(position.x * backgroundScrollingSpeed, backgroundY, backgroundZ);
+        }
 
         // Simple debug
         Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
