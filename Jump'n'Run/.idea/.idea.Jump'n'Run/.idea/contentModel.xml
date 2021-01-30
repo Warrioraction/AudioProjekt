@@ -11,8 +11,10 @@
             <e p="AudioMixerGroupFade.cs" t="Include" />
           </e>
           <e p="Level" t="Include">
+            <e p="Mosquito.cs" t="Include" />
             <e p="MovingPlatform.cs" t="Include" />
             <e p="Parallax.cs" t="Include" />
+            <e p="UpDownPlatform.cs" t="Include" />
           </e>
           <e p="Menus" t="Include">
             <e p="SC_BackgroundScaler.cs" t="Include" />
