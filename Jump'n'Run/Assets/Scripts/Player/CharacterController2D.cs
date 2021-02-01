@@ -20,7 +20,8 @@ public class CharacterController2D : MonoBehaviour
     public Camera mainCamera;
     public GameObject background;
     public Vector3 cameraRespawnPoint;
-    
+    public Animator animator;
+    public Sprite jumpSprite;
     
     bool facingRight = true;
     float moveDirection = 0;
@@ -52,6 +53,7 @@ public class CharacterController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         // Movement controls
         if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && (isGrounded || Mathf.Abs(r2d.velocity.x) > 0.01f))
         {
@@ -82,9 +84,10 @@ public class CharacterController2D : MonoBehaviour
         }
 
         // Jumping
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
+            animator.SetBool("IsJumping", true);
         }
 
         // Camera follow
@@ -110,12 +113,14 @@ public class CharacterController2D : MonoBehaviour
                 if (colliders[i] != mainCollider)
                 {
                     isGrounded = true;
+                    animator.SetBool("IsJumping", false);
                     break;
                 }
             }
         }
         
         r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
+        animator.SetFloat("Speed", Mathf.Abs(r2d.velocity.x));
         if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
         {
             var position = transform.position;
@@ -124,6 +129,7 @@ public class CharacterController2D : MonoBehaviour
 
         if (transform.position.y < -8)
         {
+            r2d.velocity = Vector3.zero;
             transform.position = respawnPoint;
             mainCamera.transform.position = cameraRespawnPoint;
         }
