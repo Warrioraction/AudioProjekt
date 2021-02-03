@@ -11,6 +11,7 @@
             <e p="AudioMixerGroupFade.cs" t="Include" />
           </e>
           <e p="Level" t="Include">
+            <e p="DisappearingPlatform.cs" t="Include" />
             <e p="Mosquito.cs" t="Include" />
             <e p="MovingPlatform.cs" t="Include" />
             <e p="Parallax.cs" t="Include" />
@@ -21,6 +22,7 @@
             <e p="SC_BackgroundScaler.cs" t="Include" />
             <e p="SC_MainMenu.cs" t="Include" />
             <e p="SC_Settings.cs" t="Include" />
+            <e p="SetVolume.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="CharacterController2D.cs" t="Include" />
