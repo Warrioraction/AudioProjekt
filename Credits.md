@@ -7,7 +7,7 @@
 ### Background Music
 - Menue:
 - Forest Level: [link](https://opengameart.org/content/snow-about-a-castle) [license](https://www.gnu.org/licenses/gpl-3.0.html) no changes were made
-- Swamp Level: [link](https://opengameart.org/content/radakan-del-erad) [license](https://creativecommons.org/licenses/by-sa/3.0/) no changes were made
+- Swamp Level: Janne Hanhisuanto for Radakan [link](https://opengameart.org/content/radakan-del-erad) [license](https://creativecommons.org/licenses/by-sa/3.0/) no changes were made
 - Cave Level: [link](https://opengameart.org/content/ice-cave) [license](https://creativecommons.org/licenses/by/4.0/) no changes were made
 ### SFX
 - Buttons:

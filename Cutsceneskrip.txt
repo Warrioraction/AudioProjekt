@@ -1,0 +1,19 @@
+Allgemeine Tipps und Tricks fürs Aufnehmen:
+Am Handy: App z.B. https://play.google.com/store/apps/details?id=com.andrwq.recorder&hl=de&gl=US
+Am PC: z.B. https://www.audacityteam.org/
+Beim Aufnehmen bitte immer 2-3 Sekunden vor und nach dem Sprechen schon aufnehmen
+am besten Personen einzeln aufnehmen und nach jedem Sprecherwechsel eine neue Aufnahme machen.
+
+Startszene:
+Pizzabäcker: *freundlich und beschwingt* "Hallo, Pizzalieferdienst PizzaTown, wie kann ich Ihnen helfen?"
+Theobert: *bisschen grummelig* "Hallo, ich würde gerne eine Pizza bestellen."
+Pizzabäcker: "Natürlich, was darf es denn sein?"
+Theobert: "Eine Pizza Diavola, bitte"
+Pizzabäcker: "Gerne, das wird ca 45min dauern"
+*ausblenden zum nächsten Bild*
+Peter: *aufgeregt* "Aufgeht's zu Theobert dem Troll!"
+
+Endszene:
+Theobert: "Wer ist da?"
+Peter: *freundlich* "Ihre Pizzalieferung!"
+Theobert: *Ausruf der Freude* z.B. "Jaaa, komme sofort!", "Yay, komme sofort!", etc. und ein "Mmmmhhh"

@@ -1,0 +1,27 @@
+meneu:
+- button click
+- background
+
+steps:
+- all
+
+animals:
+- mosquito
+- frog
+- owl
+- bat
+- vögel
+- wassertropfen für höhle
+- wasserplätschern für sumpf 
+- blasen platzen für sumpf
+- blätter rascheln für wald
+
+cutscene:
+- restaurant hintergrund
+- flammen im ofen
+- pizza brutzeln
+- klopfen auf stein
+- höhlengeräusche (tropfen)
+
+trailer:
+- epische musik
