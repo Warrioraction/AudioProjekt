@@ -4101,7 +4101,7 @@ GameObject:
   - component: {fileID: 768559451}
   m_Layer: 0
   m_Name: flying_platform_3
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4769,7 +4769,7 @@ GameObject:
   - component: {fileID: 903281670}
   m_Layer: 0
   m_Name: flying_platform_3
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5536,7 +5536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097451193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.46, y: -2.59, z: -5}
+  m_LocalPosition: {x: -2.88, y: -3.11, z: -5}
   m_LocalScale: {x: 0.55, y: 0.5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5607,6 +5607,7 @@ MonoBehaviour:
   cameraRespawnPoint: {x: 7.07, y: 0, z: -15.2}
   animator: {fileID: 1097451197}
   jumpSprite: {fileID: 0}
+  isGrounded: 0
 --- !u!1 &1104904106
 GameObject:
   m_ObjectHideFlags: 0
@@ -11081,7 +11082,7 @@ GameObject:
   - component: {fileID: 2048606152}
   m_Layer: 0
   m_Name: flying_platform_3
-  m_TagString: Untagged
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

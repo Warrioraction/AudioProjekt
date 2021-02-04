@@ -25,7 +25,7 @@ public class CharacterController2D : MonoBehaviour
     
     bool facingRight = true;
     float moveDirection = 0;
-    bool isGrounded = false;
+    public bool isGrounded = false;
     private Vector3 respawnPoint;
     Vector3 cameraPos;
     Rigidbody2D r2d;
@@ -87,7 +87,6 @@ public class CharacterController2D : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
-            animator.SetBool("IsJumping", true);
         }
 
         // Camera follow
@@ -96,10 +95,20 @@ public class CharacterController2D : MonoBehaviour
             if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
               mainCamera.transform.position = new Vector3(t.position.x, cameraPos.y, cameraPos.z);
         }
+        
+        if (isGrounded)
+        {
+            animator.SetBool("IsJumping", false);
+        }
+        else
+        {
+            animator.SetBool("IsJumping", true);
+        }
     }
 
     void FixedUpdate()
     {
+        r2d.isKinematic = false;
         Bounds colliderBounds = mainCollider.bounds;
         float colliderRadius = mainCollider.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
         Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, colliderRadius * 0.9f, 0);
@@ -113,12 +122,11 @@ public class CharacterController2D : MonoBehaviour
                 if (colliders[i] != mainCollider)
                 {
                     isGrounded = true;
-                    animator.SetBool("IsJumping", false);
                     break;
                 }
             }
         }
-        
+
         r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
         animator.SetFloat("Speed", Mathf.Abs(r2d.velocity.x));
         if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
@@ -129,7 +137,7 @@ public class CharacterController2D : MonoBehaviour
 
         if (transform.position.y < -8)
         {
-            r2d.velocity = Vector3.zero;
+            r2d.isKinematic = true;
             transform.position = respawnPoint;
             mainCamera.transform.position = cameraRespawnPoint;
         }
