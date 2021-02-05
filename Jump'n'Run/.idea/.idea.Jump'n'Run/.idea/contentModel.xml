@@ -12,6 +12,7 @@
           </e>
           <e p="Level" t="Include">
             <e p="DisappearingPlatform.cs" t="Include" />
+            <e p="LevelChange.cs" t="Include" />
             <e p="Mosquito.cs" t="Include" />
             <e p="MovingPlatform.cs" t="Include" />
             <e p="Parallax.cs" t="Include" />

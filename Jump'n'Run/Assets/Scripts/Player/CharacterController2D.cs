@@ -17,6 +17,7 @@ public class CharacterController2D : MonoBehaviour
     public float backgroundScrollingSpeed;
     public float backgroundY;
     public float backgroundZ;
+    public bool disableInput;
     public Camera mainCamera;
     public GameObject background;
     public Vector3 cameraRespawnPoint;
@@ -53,56 +54,59 @@ public class CharacterController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        // Movement controls
-        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) && (isGrounded || Mathf.Abs(r2d.velocity.x) > 0.01f))
+        if (!disableInput)
         {
-            moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
-        }
-        else
-        {
-            if (isGrounded || r2d.velocity.magnitude < 0.01f)
+            // Movement controls
+            if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) &&
+                (isGrounded || Mathf.Abs(r2d.velocity.x) > 0.01f))
             {
-                moveDirection = 0;
+                moveDirection = Input.GetKey(KeyCode.A) ? -1 : 1;
             }
-        }
-
-        // Change facing direction
-        if (moveDirection != 0)
-        {
-            if (moveDirection > 0 && !facingRight)
+            else
             {
-                facingRight = true;
-                t.localScale = new Vector3(Mathf.Abs(t.localScale.x), t.localScale.y, transform.localScale.z);
+                if (isGrounded || r2d.velocity.magnitude < 0.01f)
+                {
+                    moveDirection = 0;
+                }
             }
 
-            if (moveDirection < 0 && facingRight)
+            // Change facing direction
+            if (moveDirection != 0)
             {
-                facingRight = false;
-                t.localScale = new Vector3(-Mathf.Abs(t.localScale.x), t.localScale.y, t.localScale.z);
+                if (moveDirection > 0 && !facingRight)
+                {
+                    facingRight = true;
+                    t.localScale = new Vector3(Mathf.Abs(t.localScale.x), t.localScale.y, transform.localScale.z);
+                }
+
+                if (moveDirection < 0 && facingRight)
+                {
+                    facingRight = false;
+                    t.localScale = new Vector3(-Mathf.Abs(t.localScale.x), t.localScale.y, t.localScale.z);
+                }
             }
-        }
 
-        // Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
-        }
+            // Jumping
+            if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+            {
+                r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
+            }
 
-        // Camera follow
-        if (mainCamera)
-        {
-            if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
-              mainCamera.transform.position = new Vector3(t.position.x, cameraPos.y, cameraPos.z);
-        }
-        
-        if (isGrounded)
-        {
-            animator.SetBool("IsJumping", false);
-        }
-        else
-        {
-            animator.SetBool("IsJumping", true);
+            // Camera follow
+            if (mainCamera)
+            {
+                if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
+                    mainCamera.transform.position = new Vector3(t.position.x, cameraPos.y, cameraPos.z);
+            }
+
+            if (isGrounded)
+            {
+                animator.SetBool("IsJumping", false);
+            }
+            else
+            {
+                animator.SetBool("IsJumping", true);
+            }
         }
     }
 

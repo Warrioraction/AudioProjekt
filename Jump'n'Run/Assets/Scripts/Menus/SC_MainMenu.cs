@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SC_MainMenu : MonoBehaviour
 {
@@ -16,12 +17,12 @@ public class SC_MainMenu : MonoBehaviour
     public void PlayNowButton()
     {
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
-        UnityEngine.SceneManagement.SceneManager.LoadScene("ForestLevel");
+        SceneManager.LoadScene("ForestLevel");
     }
         public void SettingsButton()
     {
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Settings");
+        SceneManager.LoadScene("Settings");
     }
 
     public void CreditsButton()
