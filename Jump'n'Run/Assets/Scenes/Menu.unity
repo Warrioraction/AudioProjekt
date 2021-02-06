@@ -302,8 +302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -336, y: 99}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -343, y: -104}
+  m_SizeDelta: {x: 356.94913, y: 420.241}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &207218400
 MonoBehaviour:
@@ -327,18 +327,99 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 17
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Credits
+  m_Text: 'Credits:
+
+
+    _piano score
+
+    https://opengameart.org/content/waterfall-hidden-cave
+
+    
+
+    155
+    november snow
+
+    
+
+    
+
+    del erad
+
+    https://opengameart.org/content/radakan-del-erad
+
+    
+
+    forest
+    ambience
+
+    https://opengameart.org/content/forest-ambience
+
+    
+
+    ice
+    cave
+
+    https://opengameart.org/content/ice-cave
+
+    
+
+    magical forest
+
+    https://opengameart.org/content/magical-forest
+
+    
+
+    snow
+    about a castle
+
+    https://opengameart.org/content/snow-about-a-castle
+
+    
+
+    the
+    rain gray
+
+    https://opengameart.org/content/the-rain-gray
+
+    
+
+    main
+    menue ideen:
+
+    harp
+
+    https://opengameart.org/content/soft-mysterious-harp-loop
+
+    
+
+    enchanted
+    festival
+
+    https://opengameart.org/content/enchanted-festival
+
+    
+
+    pleasant
+    creek pack
+
+    https://opengameart.org/content/pleasant-creek
+
+    
+
+    trailer:
+
+'
 --- !u!222 &207218401
 CanvasRenderer:
   m_ObjectHideFlags: 0

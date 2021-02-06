@@ -22,7 +22,7 @@ public GameObject Help;
         }
         
     }
-    public void ResumeGame(){
+    public  void  ResumeGame(){
         pauseMenuOff.SetActive(true);
 
         pauseMenu.SetActive(false);
@@ -52,6 +52,7 @@ public GameObject Help;
         public void HomeButton()
     {
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
+       Time.timeScale = 1f;
         UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
     }
 }
