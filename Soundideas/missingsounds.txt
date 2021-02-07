@@ -3,7 +3,17 @@ meneu:
 - background
 
 steps:
-- all
+- äste mit bättern
+- grasboden
+- nur gras
+- holz
+
+- sumpfboden, matschig, wenig gras
+- grasboden
+
+- stein
+- kristalle
+(- leiterklettern für das ende)
 
 animals:
 - mosquito
