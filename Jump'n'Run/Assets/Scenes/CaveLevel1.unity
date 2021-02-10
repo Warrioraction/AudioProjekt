@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 42512100}
   m_Layer: 0
   m_Name: cave_big_platform_1 (5)
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -902,7 +902,7 @@ GameObject:
   - component: {fileID: 179109934}
   m_Layer: 0
   m_Name: rock_beryl_fore1 (1)
-  m_TagString: Platform
+  m_TagString: CrystalPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1355,7 +1355,7 @@ GameObject:
   - component: {fileID: 270911193}
   m_Layer: 0
   m_Name: rock_sparkly_fore1 (5)
-  m_TagString: Platform
+  m_TagString: CrystalPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1889,7 +1889,7 @@ GameObject:
   - component: {fileID: 353210239}
   m_Layer: 0
   m_Name: cave_platform_5 (1)
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2655,7 +2655,7 @@ GameObject:
   - component: {fileID: 577054860}
   m_Layer: 0
   m_Name: cave_platform_4
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3759,7 +3759,7 @@ GameObject:
   - component: {fileID: 740205509}
   m_Layer: 0
   m_Name: cave_platform_2
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3869,7 +3869,7 @@ GameObject:
   - component: {fileID: 794203343}
   m_Layer: 0
   m_Name: rock_sparkly_fore1 (6)
-  m_TagString: Platform
+  m_TagString: CrystalPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4677,7 +4677,7 @@ GameObject:
   - component: {fileID: 956061812}
   m_Layer: 0
   m_Name: rock_sparkly_fore1
-  m_TagString: Platform
+  m_TagString: CrystalPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4883,7 +4883,7 @@ GameObject:
   - component: {fileID: 971199622}
   m_Layer: 0
   m_Name: cave_platform_2
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5074,7 +5074,7 @@ GameObject:
   - component: {fileID: 981262041}
   m_Layer: 0
   m_Name: cave_platform_2
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5758,7 +5758,7 @@ GameObject:
   - component: {fileID: 1068809761}
   m_Layer: 0
   m_Name: rock_beryl_fore1
-  m_TagString: Platform
+  m_TagString: CrystalPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5965,13 +5965,111 @@ GameObject:
   - component: {fileID: 1097451197}
   - component: {fileID: 1097451201}
   - component: {fileID: 1097451200}
-  m_Layer: 0
+  - component: {fileID: 1097451199}
+  - component: {fileID: 1097451194}
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!82 &1097451194
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097451193}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -3878553938287030744, guid: c781599a7a2ea5b478c6e4790659a402, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!212 &1097451195
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6077,6 +6175,40 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1097451199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097451193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87d44bd2b40bf147a44c7234dd4516a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoneClips:
+  - {fileID: 8300000, guid: 511dde640dd87e84892671733625d096, type: 3}
+  - {fileID: 8300000, guid: 2f071597dd7fa4e4289a260276995e9f, type: 3}
+  - {fileID: 8300000, guid: 96c3b0df881ca9b4fb234abc54bfb348, type: 3}
+  - {fileID: 8300000, guid: 72e2f97c5d645ae479ac0ddf328ecf82, type: 3}
+  - {fileID: 8300000, guid: 8264ca26d6e84b04c952b334c8996abd, type: 3}
+  - {fileID: 8300000, guid: 02fcc3c8bd641dd418192784c4012d3f, type: 3}
+  grassClips:
+  - {fileID: 8300000, guid: 9255844775e4b054db95b4d2b4032753, type: 3}
+  - {fileID: 8300000, guid: 9e2391017d2d85447b0c10f93d03d2cd, type: 3}
+  - {fileID: 8300000, guid: 1696d0726934cd94d895aaa18778176d, type: 3}
+  - {fileID: 8300000, guid: a63c03f3e780cf44998b591483c84b2d, type: 3}
+  - {fileID: 8300000, guid: 6b67388060b55564ca127051fdeb5db3, type: 3}
+  - {fileID: 8300000, guid: 9f3cff8abd067414395fedfd28644da1, type: 3}
+  woodClips:
+  - {fileID: 8300000, guid: 632c7e7fc50e2b146a63261bd73826a0, type: 3}
+  - {fileID: 8300000, guid: 44cef479f2e3a97448ecfb45d72fd229, type: 3}
+  - {fileID: 8300000, guid: 4154999fda5ac34489b140192882b20c, type: 3}
+  - {fileID: 8300000, guid: 68ef8f366ff5ddf4daa0ba3834fde9d8, type: 3}
+  - {fileID: 8300000, guid: a552cd1d2c56d614481594701807a6bf, type: 3}
+  - {fileID: 8300000, guid: c3d22142be26568459cb3919fa2f3d28, type: 3}
+  crystalClips: []
 --- !u!114 &1097451200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6216,7 +6348,7 @@ GameObject:
   - component: {fileID: 1117599349}
   m_Layer: 0
   m_Name: rock_sparkly_fore1 (1)
-  m_TagString: Platform
+  m_TagString: CrystalPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6471,7 +6603,7 @@ GameObject:
   - component: {fileID: 1147232688}
   m_Layer: 0
   m_Name: rock_sparkly_fore1 (3)
-  m_TagString: Platform
+  m_TagString: CrystalPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6842,7 +6974,7 @@ GameObject:
   - component: {fileID: 1271626781}
   m_Layer: 0
   m_Name: cave_gr_platform_2
-  m_TagString: Platform
+  m_TagString: StonePlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7097,7 +7229,7 @@ GameObject:
   - component: {fileID: 1352313482}
   m_Layer: 0
   m_Name: rock_sparkly_fore1 (4)
-  m_TagString: Platform
+  m_TagString: CrystalPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7632,7 +7764,7 @@ GameObject:
   - component: {fileID: 1421510907}
   m_Layer: 0
   m_Name: cave_gr_platform_2 (1)
-  m_TagString: Platform
+  m_TagString: StonePlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7838,7 +7970,7 @@ GameObject:
   - component: {fileID: 1480358816}
   m_Layer: 0
   m_Name: cave_big_platform_1
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8111,7 +8243,7 @@ GameObject:
   - component: {fileID: 1617935548}
   m_Layer: 0
   m_Name: cave_big_platform_1 (4)
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8286,7 +8418,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617998043}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -8673,7 +8805,7 @@ GameObject:
   - component: {fileID: 1744956461}
   m_Layer: 0
   m_Name: cave_big_platform_1 (2)
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9028,7 +9160,7 @@ GameObject:
   - component: {fileID: 1788638879}
   m_Layer: 0
   m_Name: cave_big_platform_1 (3)
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9137,7 +9269,7 @@ GameObject:
   - component: {fileID: 1836496088}
   m_Layer: 0
   m_Name: cave_platform_5
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10043,6 +10175,176 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1995435547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1995435550}
+  - component: {fileID: 1995435549}
+  - component: {fileID: 1995435548}
+  - component: {fileID: 1995435551}
+  m_Layer: 0
+  m_Name: AmbienceSoundSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1995435548
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995435547}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -3878553938287030744, guid: c781599a7a2ea5b478c6e4790659a402, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.496
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1995435549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995435547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055d671c2ec5b4049823559e0f6a8be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelAtmosphere: {fileID: 0}
+  forestClips: []
+  swampClips: []
+  caveClips:
+  - {fileID: 8300000, guid: 1d8fb6af371ce7d44ba83d8eafcec7ba, type: 3}
+--- !u!4 &1995435550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995435547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.43957, y: -1.8728848, z: -6.4519053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 110
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!167 &1995435551
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995435547}
+  m_Enabled: 1
+  m_MinDistance: 172.39551
+  m_MaxDistance: 183.71033
+  m_ReverbPreset: 9
+  m_Room: -1000
+  m_RoomHF: 0
+  m_DecayTime: 2.91
+  m_DecayHFRatio: 1.3
+  m_Reflections: -602
+  m_ReflectionsDelay: 0.015
+  m_Reverb: -302
+  m_ReverbDelay: 0.022
+  m_HFReference: 5000
+  m_Diffusion: 100
+  m_Density: 100
+  m_LFReference: 250
+  m_RoomLF: 0
 --- !u!1 &2033197243
 GameObject:
   m_ObjectHideFlags: 0
@@ -10104,7 +10406,7 @@ GameObject:
   - component: {fileID: 2041817498}
   m_Layer: 0
   m_Name: cave_big_platform_1 (1)
-  m_TagString: Untagged
+  m_TagString: Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

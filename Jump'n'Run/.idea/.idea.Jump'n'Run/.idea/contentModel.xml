@@ -8,7 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Audio" t="Include">
+            <e p="AmbienceSound.cs" t="Include" />
             <e p="AudioMixerGroupFade.cs" t="Include" />
+            <e p="Foosteps.cs" t="Include" />
           </e>
           <e p="Level" t="Include">
             <e p="DisappearingPlatform.cs" t="Include" />

@@ -8,6 +8,11 @@ TagManager:
   - Platform
   - Wood
   - Stone
+  - Leaves
+  - Crystal
+  - GrassPlatform
+  - CrystalPlatform
+  - StonePlatform
   layers:
   - Default
   - TransparentFX

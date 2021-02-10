@@ -152,7 +152,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.collider.CompareTag("Platform"))
+        if (other.collider.CompareTag("GrassPlatform") || other.collider.CompareTag("StonePlatform") ||other.collider.CompareTag("CrystalPlatform"))
         {
             transform.SetParent(other.collider.transform);
         }
@@ -160,7 +160,7 @@ public class CharacterController2D : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D other)
     {
-        if (other.collider.CompareTag("Platform"))
+        if (other.collider.CompareTag("GrassPlatform") || other.collider.CompareTag("StonePlatform") ||other.collider.CompareTag("CrystalPlatform"))
         {
             transform.SetParent(null);
         }

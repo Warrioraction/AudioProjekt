@@ -1405,7 +1405,7 @@ GameObject:
   - component: {fileID: 352875021}
   m_Layer: 0
   m_Name: zutto_platform_2
-  m_TagString: Untagged
+  m_TagString: Leaves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1777,7 +1777,7 @@ GameObject:
   - component: {fileID: 406057310}
   m_Layer: 0
   m_Name: ground_3
-  m_TagString: Untagged
+  m_TagString: Leaves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2679,6 +2679,150 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &461754603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 461754606}
+  - component: {fileID: 461754605}
+  - component: {fileID: 461754604}
+  m_Layer: 0
+  m_Name: AmbienceSoundSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &461754604
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461754603}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -3878553938287030744, guid: c781599a7a2ea5b478c6e4790659a402, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &461754605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461754603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055d671c2ec5b4049823559e0f6a8be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelAtmosphere: {fileID: 3760792887061784057, guid: c781599a7a2ea5b478c6e4790659a402, type: 2}
+  forestClips: []
+  swampClips: []
+  caveClips: []
+--- !u!4 &461754606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461754603}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.43957, y: -1.8728848, z: -6.4519053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 113
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &496670929
 GameObject:
   m_ObjectHideFlags: 0
@@ -2996,7 +3140,7 @@ GameObject:
   - component: {fileID: 567051380}
   m_Layer: 0
   m_Name: ground_surface_2
-  m_TagString: Untagged
+  m_TagString: Leaves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3556,7 +3700,7 @@ GameObject:
   - component: {fileID: 622691831}
   m_Layer: 0
   m_Name: flying_platform_3
-  m_TagString: Platform
+  m_TagString: GrassPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4420,7 +4564,7 @@ GameObject:
   - component: {fileID: 768559451}
   m_Layer: 0
   m_Name: flying_platform_3
-  m_TagString: Platform
+  m_TagString: GrassPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4716,7 +4860,7 @@ GameObject:
   - component: {fileID: 799945145}
   m_Layer: 0
   m_Name: flying_platform_4 (1)
-  m_TagString: Platform
+  m_TagString: GrassPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5088,7 +5232,7 @@ GameObject:
   - component: {fileID: 903281670}
   m_Layer: 0
   m_Name: flying_platform_3
-  m_TagString: Platform
+  m_TagString: GrassPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5980,7 +6124,9 @@ GameObject:
   - component: {fileID: 1097451197}
   - component: {fileID: 1097451200}
   - component: {fileID: 1097451194}
-  m_Layer: 0
+  - component: {fileID: 1097451201}
+  - component: {fileID: 1097451199}
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -6062,7 +6208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097451193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.88, y: -3.11, z: -5}
+  m_LocalPosition: {x: -2.88, y: -3.11, z: 0}
   m_LocalScale: {x: 0.55, y: 0.5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6108,6 +6254,102 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!82 &1097451199
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097451193}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -3878553938287030744, guid: c781599a7a2ea5b478c6e4790659a402, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &1097451200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6135,6 +6377,40 @@ MonoBehaviour:
   animator: {fileID: 1097451197}
   jumpSprite: {fileID: 0}
   isGrounded: 0
+--- !u!114 &1097451201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097451193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e87d44bd2b40bf147a44c7234dd4516a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoneClips:
+  - {fileID: 8300000, guid: 511dde640dd87e84892671733625d096, type: 3}
+  - {fileID: 8300000, guid: 2f071597dd7fa4e4289a260276995e9f, type: 3}
+  - {fileID: 8300000, guid: 96c3b0df881ca9b4fb234abc54bfb348, type: 3}
+  - {fileID: 8300000, guid: 72e2f97c5d645ae479ac0ddf328ecf82, type: 3}
+  - {fileID: 8300000, guid: 8264ca26d6e84b04c952b334c8996abd, type: 3}
+  - {fileID: 8300000, guid: 02fcc3c8bd641dd418192784c4012d3f, type: 3}
+  grassClips:
+  - {fileID: 8300000, guid: 9255844775e4b054db95b4d2b4032753, type: 3}
+  - {fileID: 8300000, guid: 9e2391017d2d85447b0c10f93d03d2cd, type: 3}
+  - {fileID: 8300000, guid: 1696d0726934cd94d895aaa18778176d, type: 3}
+  - {fileID: 8300000, guid: a63c03f3e780cf44998b591483c84b2d, type: 3}
+  - {fileID: 8300000, guid: 6b67388060b55564ca127051fdeb5db3, type: 3}
+  - {fileID: 8300000, guid: 9f3cff8abd067414395fedfd28644da1, type: 3}
+  woodClips:
+  - {fileID: 8300000, guid: 632c7e7fc50e2b146a63261bd73826a0, type: 3}
+  - {fileID: 8300000, guid: 44cef479f2e3a97448ecfb45d72fd229, type: 3}
+  - {fileID: 8300000, guid: 4154999fda5ac34489b140192882b20c, type: 3}
+  - {fileID: 8300000, guid: 68ef8f366ff5ddf4daa0ba3834fde9d8, type: 3}
+  - {fileID: 8300000, guid: a552cd1d2c56d614481594701807a6bf, type: 3}
+  - {fileID: 8300000, guid: c3d22142be26568459cb3919fa2f3d28, type: 3}
+  crystalClips: []
 --- !u!1 &1104904106
 GameObject:
   m_ObjectHideFlags: 0
@@ -6841,7 +7117,7 @@ GameObject:
   - component: {fileID: 1241413093}
   m_Layer: 0
   m_Name: flying_platform_4
-  m_TagString: Platform
+  m_TagString: GrassPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7116,7 +7392,7 @@ GameObject:
   - component: {fileID: 1269305219}
   m_Layer: 0
   m_Name: ground_5
-  m_TagString: Untagged
+  m_TagString: Leaves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8851,7 +9127,7 @@ GameObject:
   - component: {fileID: 1559858733}
   m_Layer: 0
   m_Name: flying_platform_3 (1)
-  m_TagString: Platform
+  m_TagString: GrassPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9162,7 +9438,7 @@ GameObject:
   - component: {fileID: 1606863167}
   m_Layer: 0
   m_Name: flying_platform_3
-  m_TagString: Untagged
+  m_TagString: GrassPlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10069,7 +10345,7 @@ GameObject:
   - component: {fileID: 1761767134}
   m_Layer: 0
   m_Name: ground_surface_3
-  m_TagString: Untagged
+  m_TagString: Leaves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10221,7 +10497,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -390326877
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 09137565f7505774a9d67e4292db71a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12086,7 +12362,7 @@ GameObject:
   - component: {fileID: 2140750043}
   m_Layer: 0
   m_Name: ground_surface_1
-  m_TagString: Untagged
+  m_TagString: Leaves
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
