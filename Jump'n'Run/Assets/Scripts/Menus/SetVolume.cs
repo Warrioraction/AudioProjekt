@@ -9,6 +9,12 @@ public class SetVolume : MonoBehaviour {
    public Slider MusicSlider;
    public Slider SFXSlider;
     public AudioMixer mixer;
+private void Update(){
+        mixer.SetFloat("BackgroundVol", MusicSlider.value);
+        
+         mixer.SetFloat("SFXVol",SFXSlider.value);
+}
+
  private void Start()
  {
      // get the source, so you don't have to "Get" it each time
