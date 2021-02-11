@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 276212115}
   m_Layer: 0
   m_Name: ground_1
-  m_TagString: Leaves
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1676,6 +1676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055d671c2ec5b4049823559e0f6a8be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _levelAtmosphere: {fileID: 0}
   forestClips:
   - {fileID: 8300000, guid: 975576be83b9cd94e9644044353b0c13, type: 3}
   swampClips: []
@@ -2050,7 +2051,7 @@ GameObject:
   - component: {fileID: 530737556}
   m_Layer: 0
   m_Name: ground_3
-  m_TagString: Leaves
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4487,6 +4488,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a63c03f3e780cf44998b591483c84b2d, type: 3}
   - {fileID: 8300000, guid: 6b67388060b55564ca127051fdeb5db3, type: 3}
   - {fileID: 8300000, guid: 9f3cff8abd067414395fedfd28644da1, type: 3}
+  leavesClips:
+  - {fileID: 8300000, guid: a6f91f0a586705744a44d087b8e46ffd, type: 3}
+  - {fileID: 8300000, guid: e0b729f572c86a940b48a552200ab1ca, type: 3}
+  - {fileID: 8300000, guid: 11bd4e11b50406f47b520748b180397e, type: 3}
+  - {fileID: 8300000, guid: c0a7b4576819b4b4d838efc55fe91f42, type: 3}
+  - {fileID: 8300000, guid: 7769d524676b4124f9d46fae9eea3da5, type: 3}
+  - {fileID: 8300000, guid: c38e243cf4ef16645b02693278613524, type: 3}
   woodClips:
   - {fileID: 8300000, guid: 632c7e7fc50e2b146a63261bd73826a0, type: 3}
   - {fileID: 8300000, guid: 44cef479f2e3a97448ecfb45d72fd229, type: 3}
@@ -6383,7 +6391,7 @@ GameObject:
   - component: {fileID: 1641615716}
   m_Layer: 0
   m_Name: ground_14 (1)
-  m_TagString: Leaves
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -13,6 +13,7 @@ TagManager:
   - GrassPlatform
   - CrystalPlatform
   - StonePlatform
+  - Grass
   layers:
   - Default
   - TransparentFX

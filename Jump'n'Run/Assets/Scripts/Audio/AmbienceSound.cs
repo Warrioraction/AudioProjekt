@@ -50,7 +50,7 @@ public class AmbienceSound : MonoBehaviour
     
     IEnumerator PlaySoundForest()
     {
-        yield return new WaitForSeconds(Random.Range(5f, 15f));
+        yield return new WaitForSeconds(Random.Range(5f, 10f));
 
         _clipIndex = Random.Range(0, forestClips.Length - 1);
         _audioSource.PlayOneShot(forestClips[_clipIndex], 1f);
@@ -61,7 +61,7 @@ public class AmbienceSound : MonoBehaviour
     
     IEnumerator PlaySoundSwamp()
     {
-        yield return new WaitForSeconds(Random.Range(10f, 20f));
+        yield return new WaitForSeconds(Random.Range(5f, 10f));
 
         _clipIndex = Random.Range(0, swampClips.Length - 1);
         _audioSource.PlayOneShot(swampClips[_clipIndex], 1f);
@@ -72,7 +72,7 @@ public class AmbienceSound : MonoBehaviour
     
     IEnumerator PlaySoundCave()
     {
-        yield return new WaitForSeconds(Random.Range(10f, 20f));
+        yield return new WaitForSeconds(Random.Range(4f, 7f));
 
         _clipIndex = Random.Range(0, caveClips.Length - 1);
         _audioSource.PlayOneShot(caveClips[_clipIndex], 1f);

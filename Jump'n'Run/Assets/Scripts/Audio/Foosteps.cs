@@ -12,6 +12,7 @@ public class Foosteps : MonoBehaviour
     
     public AudioClip[] stoneClips;
     public AudioClip[] grassClips;
+    public AudioClip[] leavesClips;
     public AudioClip[] woodClips;
     public AudioClip[] crystalClips;
     
@@ -39,11 +40,14 @@ public class Foosteps : MonoBehaviour
         hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector3.down), 5f);
         Debug.Log(hit.transform.gameObject.tag);
         
-        if (hit.transform.gameObject.CompareTag("Leaves") || hit.transform.gameObject.CompareTag("GrassPlatform"))
+        if (hit.transform.gameObject.CompareTag("GrassPlatform") || hit.transform.gameObject.CompareTag("Grass"))
         {
             _audioSource.PlayOneShot(GetRandomClip(grassClips));
         }
-        
+        else if (hit.transform.gameObject.CompareTag("Leaves"))
+        {
+            _audioSource.PlayOneShot(GetRandomClip(leavesClips));
+        }
         else if (hit.transform.gameObject.CompareTag("Wood"))
         {
             _audioSource.PlayOneShot(GetRandomClip(woodClips));

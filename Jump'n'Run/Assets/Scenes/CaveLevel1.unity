@@ -6201,6 +6201,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a63c03f3e780cf44998b591483c84b2d, type: 3}
   - {fileID: 8300000, guid: 6b67388060b55564ca127051fdeb5db3, type: 3}
   - {fileID: 8300000, guid: 9f3cff8abd067414395fedfd28644da1, type: 3}
+  leavesClips: []
   woodClips:
   - {fileID: 8300000, guid: 632c7e7fc50e2b146a63261bd73826a0, type: 3}
   - {fileID: 8300000, guid: 44cef479f2e3a97448ecfb45d72fd229, type: 3}
@@ -6208,7 +6209,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 68ef8f366ff5ddf4daa0ba3834fde9d8, type: 3}
   - {fileID: 8300000, guid: a552cd1d2c56d614481594701807a6bf, type: 3}
   - {fileID: 8300000, guid: c3d22142be26568459cb3919fa2f3d28, type: 3}
-  crystalClips: []
+  crystalClips:
+  - {fileID: 8300000, guid: ee8a40cca58bf8a4c914a7338cc1c92a, type: 3}
+  - {fileID: 8300000, guid: ef8a8453648cc6e4281e5ffea9de5e07, type: 3}
+  - {fileID: 8300000, guid: e4aa9d09d05d0554ebde0effe6308079, type: 3}
+  - {fileID: 8300000, guid: 0441f4e8d0963cf4c991461ac5f4c71f, type: 3}
 --- !u!114 &1097451200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10307,6 +10312,9 @@ MonoBehaviour:
   swampClips: []
   caveClips:
   - {fileID: 8300000, guid: 1d8fb6af371ce7d44ba83d8eafcec7ba, type: 3}
+  - {fileID: 8300000, guid: 9b075da55adba5f4cbecd27331b0bb28, type: 3}
+  - {fileID: 8300000, guid: 1c62b4e42a9782040a2fa96087dce8f8, type: 3}
+  - {fileID: 8300000, guid: 352595b0e2d57194abc378ec5c4d3c07, type: 3}
 --- !u!4 &1995435550
 Transform:
   m_ObjectHideFlags: 0
@@ -10331,15 +10339,15 @@ AudioReverbZone:
   m_Enabled: 1
   m_MinDistance: 172.39551
   m_MaxDistance: 183.71033
-  m_ReverbPreset: 9
+  m_ReverbPreset: 14
   m_Room: -1000
-  m_RoomHF: 0
-  m_DecayTime: 2.91
-  m_DecayHFRatio: 1.3
-  m_Reflections: -602
-  m_ReflectionsDelay: 0.015
-  m_Reverb: -302
-  m_ReverbDelay: 0.022
+  m_RoomHF: -237
+  m_DecayTime: 2.7
+  m_DecayHFRatio: 0.79
+  m_Reflections: -1214
+  m_ReflectionsDelay: 0.013
+  m_Reverb: 395
+  m_ReverbDelay: 0.02
   m_HFReference: 5000
   m_Diffusion: 100
   m_Density: 100
