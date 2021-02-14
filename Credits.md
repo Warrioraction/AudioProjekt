@@ -11,13 +11,13 @@
 - Cave Level: [link](https://opengameart.org/content/ice-cave) [license](https://creativecommons.org/licenses/by/4.0/) no changes were made
 ### SFX
 - Buttons: [link] (https://opengameart.org/content/ui-soundpack-by-m1chiboi-bleeps-and-clicks)
-- TODO: steps, animals, background noices: self recorded
+- Steps, animals, background noices: self recorded and adapted
 ### Cutscene Voices
-- 
-- 
-- 
+- Koch: Johannes Eckl
+- Theobert der Troll: Michael Männer
+- Peter der Pizzalieferant: Patrick Fritz
 ### Cutscene Sounds
-- ...
+- Restaurant background noises: Restaurant party crowd loop - mixkit
 ## Graphics
 ### Background
 - Menue: [link](https://www.vecteezy.com/vector-art/157170-scooter-pizzeria-free-vector)
