@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CaveLevel1.unity
     guid: acab8e514199eb549bb568f066092caa
+  - enabled: 1
+    path: Assets/Scenes/OpeningCutscene.unity
+    guid: e56923f36cd9b1348aaa06af0cb2c72c
+  - enabled: 1
+    path: Assets/Scenes/EndCutscene.unity
+    guid: 678468a3874e97448a4d557074c8f00d
   m_configObjects: {}

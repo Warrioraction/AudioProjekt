@@ -12,6 +12,9 @@
             <e p="AudioMixerGroupFade.cs" t="Include" />
             <e p="Foosteps.cs" t="Include" />
           </e>
+          <e p="Cutscenes" t="Include">
+            <e p="TransitionToLevel.cs" t="Include" />
+          </e>
           <e p="Level" t="Include">
             <e p="DisappearingPlatform.cs" t="Include" />
             <e p="LevelChange.cs" t="Include" />
@@ -21,6 +24,7 @@
             <e p="UpDownPlatform.cs" t="Include" />
           </e>
           <e p="Menus" t="Include">
+            <e p="Background.cs" t="Include" />
             <e p="Pause.cs" t="Include" />
             <e p="SC_BackgroundScaler.cs" t="Include" />
             <e p="SC_MainMenu.cs" t="Include" />

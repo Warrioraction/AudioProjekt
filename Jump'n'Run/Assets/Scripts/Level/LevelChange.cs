@@ -44,5 +44,9 @@ public class LevelChange : MonoBehaviour
         {
             SceneManager.LoadScene("CaveLevel1");
         }
+        else if (_sceneName == "CaveLevel1")
+        {
+            SceneManager.LoadScene("EndCutscene");
+        }
     }
 }
