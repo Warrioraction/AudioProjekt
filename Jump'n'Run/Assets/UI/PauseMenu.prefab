@@ -714,6 +714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 742323012708057282}
   pauseMenuOff: {fileID: 742323012580020975}
+  mixer: {fileID: 24100000, guid: c781599a7a2ea5b478c6e4790659a402, type: 2}
   ButtonClick: {fileID: 4048621253643257686}
   Settings: {fileID: 742323012520596098}
   Help: {fileID: 742323013296350678}
@@ -2056,18 +2057,6 @@ MonoBehaviour:
       - m_Target: {fileID: 742323012004065216}
         m_TargetAssemblyTypeName: SetVolume, Assembly-CSharp
         m_MethodName: SetSFX
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1085574580604074041}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4437,18 +4426,6 @@ MonoBehaviour:
       - m_Target: {fileID: 742323013234325236}
         m_TargetAssemblyTypeName: SetMusic, Assembly-CSharp
         m_MethodName: SetLevel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1085574580604074041}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Pause : MonoBehaviour
 {
 public static bool isGamePaused=false;
 [SerializeField] GameObject pauseMenu;    // Update is called once per frame
 [SerializeField] GameObject pauseMenuOff; 
+public AudioMixer mixer;
 public GameObject ButtonClick; 
  public GameObject Settings;
 public GameObject Help;  
@@ -26,7 +28,10 @@ public GameObject Help;
         
     }
     public  void  ResumeGame(){
-
+        float a;
+         mixer.GetFloat("Pause", out a);
+         
+         mixer.SetFloat("Pause", a+10);
         pauseMenuOff.SetActive(true);
 
         pauseMenu.SetActive(false);
@@ -35,6 +40,10 @@ public GameObject Help;
         isGamePaused=false;
     }
     public void PauseGame(){
+        float a;
+         mixer.GetFloat("Pause", out a);
+         
+         mixer.SetFloat("Pause", a-10);
         pauseMenu.SetActive(true);
         pauseMenuOff.SetActive(false);
          Help.SetActive(false);
