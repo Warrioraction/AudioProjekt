@@ -301,7 +301,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press "Space Key" to go left
+  m_Text: Press "Space Key" to jump
 --- !u!222 &56695565
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -605,7 +605,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press "Q" to go left
+  m_Text: Press "A" to go left
 --- !u!222 &218298038
 CanvasRenderer:
   m_ObjectHideFlags: 0

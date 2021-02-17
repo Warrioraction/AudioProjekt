@@ -915,7 +915,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 867479643}
   m_Direction: 1
   m_Value: 0
-  m_Size: 0.9016393
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1039,8 +1039,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 641262896}
   m_HandleRect: {fileID: 286641819}
   m_Direction: 2
-  m_Value: 0.7693741
-  m_Size: 0.41702208
+  m_Value: 0.6044001
+  m_Size: 0.41702205
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2342,7 +2342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7.006884, y: 59}
+  m_AnchoredPosition: {x: 0.00002346746, y: 101.20459}
   m_SizeDelta: {x: -14.072296, y: 438.82568}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1693431650
@@ -2378,8 +2378,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mohamed Attia\n\nMartina Hermsdorf\n\nLukas Liu\n\nAll the credits could
-    be found in the \nCredits.md file"
+  m_Text: "Mohamed Attia\n\nMartina Hermsdorf\n\nLukas Liu\n\nAll remaining credits
+    can be found in the \nCredits.md file"
 --- !u!222 &1693431651
 CanvasRenderer:
   m_ObjectHideFlags: 0
