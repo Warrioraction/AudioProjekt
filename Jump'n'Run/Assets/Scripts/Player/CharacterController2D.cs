@@ -17,7 +17,7 @@ public class CharacterController2D : MonoBehaviour
     public float backgroundScrollingSpeed;
     public float backgroundY;
     public float backgroundZ;
-    public bool disableInput;
+    public bool noclip;
     public Camera mainCamera;
     public GameObject background;
     public Vector3 cameraRespawnPoint;
@@ -54,7 +54,22 @@ public class CharacterController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!disableInput)
+        if (Input.GetKey(KeyCode.F))
+        {
+            if (!noclip)
+            {
+                noclip = true;
+                r2d.isKinematic = true;
+            }
+            else
+            {
+                noclip = false;
+                r2d.isKinematic = false;
+            }
+        }
+        
+
+        if (!noclip)
         {
             // Movement controls
             if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) &&
@@ -91,63 +106,82 @@ public class CharacterController2D : MonoBehaviour
             {
                 r2d.velocity = new Vector2(r2d.velocity.x, jumpHeight);
             }
-
-            // Camera follow
-            if (mainCamera)
+        }
+        else
+        {
+            if (Input.GetKey(KeyCode.W))
             {
-                if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
-                    mainCamera.transform.position = new Vector3(t.position.x, cameraPos.y, cameraPos.z);
+                t.transform.Translate(maxSpeed * Time.deltaTime * Vector2.up);
+            } 
+            else if (Input.GetKey(KeyCode.A))
+            {
+                t.transform.Translate(maxSpeed * Time.deltaTime * Vector2.left); 
             }
-
-            if (isGrounded)
+            else if (Input.GetKey(KeyCode.S))
             {
-                animator.SetBool("IsJumping", false);
+                t.transform.Translate(maxSpeed * Time.deltaTime * Vector2.down);
             }
-            else
+            else if (Input.GetKey(KeyCode.D))
             {
-                animator.SetBool("IsJumping", true);
+                t.transform.Translate(maxSpeed * Time.deltaTime * Vector2.right);
             }
         }
+
+        // Camera follow
+        if (mainCamera)
+        {
+            if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
+                mainCamera.transform.position = new Vector3(t.position.x, cameraPos.y, cameraPos.z);
+        }
+
+        animator.SetBool("IsJumping", !isGrounded);
     }
 
     void FixedUpdate()
     {
-        r2d.isKinematic = false;
-        Bounds colliderBounds = mainCollider.bounds;
-        float colliderRadius = mainCollider.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
-        Vector3 groundCheckPos = colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, colliderRadius * 0.9f, 0);
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius);
-
-        isGrounded = false;
-        if (colliders.Length > 0)
+        if (!noclip)
         {
-            for (int i = 0; i < colliders.Length; i++)
+            r2d.isKinematic = false;
+            Bounds colliderBounds = mainCollider.bounds;
+            float colliderRadius = mainCollider.size.x * 0.4f * Mathf.Abs(transform.localScale.x);
+            Vector3 groundCheckPos =
+                colliderBounds.min + new Vector3(colliderBounds.size.x * 0.5f, colliderRadius * 0.9f, 0);
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckPos, colliderRadius);
+
+            isGrounded = false;
+            if (colliders.Length > 0)
             {
-                if (colliders[i] != mainCollider)
+                for (int i = 0; i < colliders.Length; i++)
                 {
-                    isGrounded = true;
-                    break;
+                    if (colliders[i] != mainCollider)
+                    {
+                        isGrounded = true;
+                        break;
+                    }
                 }
             }
-        }
 
-        r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
-        animator.SetFloat("Speed", Mathf.Abs(r2d.velocity.x));
-        if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
-        {
-            var position = transform.position;
-            background.transform.position = new Vector3(position.x * backgroundScrollingSpeed, backgroundY, backgroundZ);
-        }
+            r2d.velocity = new Vector2((moveDirection) * maxSpeed, r2d.velocity.y);
+            animator.SetFloat("Speed", Mathf.Abs(r2d.velocity.x));
+            if (r2d.position.x > maxCameraXLeft && r2d.position.x < maxCameraXRight)
+            {
+                var position = transform.position;
+                background.transform.position =
+                    new Vector3(position.x * backgroundScrollingSpeed, backgroundY, backgroundZ);
+            }
 
-        if (transform.position.y < -8)
-        {
-            r2d.isKinematic = true;
-            transform.position = respawnPoint;
-            mainCamera.transform.position = cameraRespawnPoint;
+            if (transform.position.y < -8)
+            {
+                r2d.isKinematic = true;
+                transform.position = respawnPoint;
+                mainCamera.transform.position = cameraRespawnPoint;
+            }
+
+            Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0),
+                isGrounded ? Color.green : Color.red);
+            Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(colliderRadius, 0, 0),
+                isGrounded ? Color.green : Color.red);
         }
-        
-        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(0, colliderRadius, 0), isGrounded ? Color.green : Color.red);
-        Debug.DrawLine(groundCheckPos, groundCheckPos - new Vector3(colliderRadius, 0, 0), isGrounded ? Color.green : Color.red);
     }
 
     private void OnCollisionEnter2D(Collision2D other)

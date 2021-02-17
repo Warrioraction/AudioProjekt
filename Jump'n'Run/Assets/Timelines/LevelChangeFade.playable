@@ -120,7 +120,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.65
+        time: 5.4166665
         value: 0
         inSlope: 0
         outSlope: 0
@@ -129,7 +129,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 3.65
+        time: 7.4166665
         value: 1
         inSlope: 0
         outSlope: 0
@@ -138,7 +138,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 20.416666
+        time: 24.183332
         value: 1
         inSlope: 0
         outSlope: 0
@@ -147,7 +147,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 22.416666
+        time: 26.183332
         value: 0
         inSlope: 0
         outSlope: 0
@@ -156,7 +156,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 24.416666
+        time: 28.183332
         value: 1
         inSlope: 0
         outSlope: 0
@@ -165,7 +165,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 28
+        time: 31.766666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -174,7 +174,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 30
+        time: 33.766666
         value: 0
         inSlope: 0
         outSlope: 0
@@ -183,7 +183,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 32
+        time: 35.766666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -192,7 +192,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 35.5
+        time: 39.266666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -201,7 +201,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 37.533333
+        time: 41.3
         value: 0
         inSlope: 0
         outSlope: 0
@@ -220,9 +220,9 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 4c23a215082cd8a4ca62de8b23a94af7, type: 3}
-    - time: 22.416666
+    - time: 26.183332
       value: {fileID: 21300000, guid: ea00b26e0a399124eb9a24302249a64a, type: 3}
-    - time: 30
+    - time: 33.766666
       value: {fileID: 21300000, guid: d55044a483b155c4abb9940938d92a37, type: 3}
     attribute: m_Sprite
     path: 
@@ -258,7 +258,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 37.533333
+    m_StopTime: 41.3
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -287,7 +287,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.65
+        time: 5.4166665
         value: 0
         inSlope: 0
         outSlope: 0
@@ -296,7 +296,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 3.65
+        time: 7.4166665
         value: 1
         inSlope: 0
         outSlope: 0
@@ -305,7 +305,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 20.416666
+        time: 24.183332
         value: 1
         inSlope: 0
         outSlope: 0
@@ -314,7 +314,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 22.416666
+        time: 26.183332
         value: 0
         inSlope: 0
         outSlope: 0
@@ -323,7 +323,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 24.416666
+        time: 28.183332
         value: 1
         inSlope: 0
         outSlope: 0
@@ -332,7 +332,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 28
+        time: 31.766666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -341,7 +341,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 30
+        time: 33.766666
         value: 0
         inSlope: 0
         outSlope: 0
@@ -350,7 +350,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 32
+        time: 35.766666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -359,7 +359,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 35.5
+        time: 39.266666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -368,7 +368,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 37.533333
+        time: 41.3
         value: 0
         inSlope: 0
         outSlope: 0
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 0
+    m_Start: 5.416666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -8760563529819668621}
     m_Duration: 22.416666666666668
@@ -475,7 +475,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 1.6500000000000128
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -535,7 +535,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: mixkit-restaurant-party-crowd-loop-355
   - m_Version: 1
-    m_Start: 22.416666666666668
+    m_Start: 26.183333333333323
     m_ClipIn: 0
     m_Asset: {fileID: -8537570555652797977}
     m_Duration: 7.566666666666666
@@ -543,7 +543,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -5859234107715943397}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
+    m_BlendInDuration: 1.6500000000000128
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -604,7 +604,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: mixkit-restaurant-party-crowd-loop-355
   - m_Version: 1
-    m_Start: 29.983333333333334
+    m_Start: 33.75000000000003
     m_ClipIn: 0
     m_Asset: {fileID: -8532122764970891305}
     m_Duration: 22.416666666666668
@@ -700,6 +700,23 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-4034110528236651558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: a7a2e4bd3c3475743b9330943b0f5af7, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.263
 --- !u!114 &-2592082547309543509
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -722,6 +739,23 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-2060220511819834265
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: 2a33a85f3d922d64f9d0476510d3cf6b, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.336
 --- !u!114 &-1587611719069465806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -763,6 +797,23 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
+--- !u!114 &-434404712471628372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: a7a2e4bd3c3475743b9330943b0f5af7, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 0.263
 --- !u!114 &-265778166883846588
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -785,7 +836,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 37.483333333333334
+    m_Start: 41.25000000000004
     m_ClipIn: 0
     m_Asset: {fileID: 7473411530786096577}
     m_Duration: 26.1999999999995
@@ -920,7 +971,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 6.683333333333334
+    m_Start: 10.45
     m_ClipIn: 0
     m_Asset: {fileID: -8458377119479278308}
     m_Duration: 4.306507936507937
@@ -989,7 +1040,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Start2-theobert
   - m_Version: 1
-    m_Start: 13.35
+    m_Start: 17.116666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -7321963798966158668}
     m_Duration: 3.9272562358276644
@@ -1058,7 +1109,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Start4-theobert
   - m_Version: 1
-    m_Start: 22.416666666666668
+    m_Start: 26.183333333333337
     m_ClipIn: 0
     m_Asset: {fileID: 995704955177816044}
     m_Duration: 7.566666666666666
@@ -1127,7 +1178,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: ofen
   - m_Version: 1
-    m_Start: 31.05
+    m_Start: 34.81666666666668
     m_ClipIn: 0
     m_Asset: {fileID: 4820641274567756744}
     m_Duration: 4.223741496598639
@@ -1195,6 +1246,195 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: Start6-peter
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: -4034110528236651558}
+    m_Duration: 1.940498866213152
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 2122461083512106058}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: telephone ring
+  - m_Version: 1
+    m_Start: 4.683333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: -2060220511819834265}
+    m_Duration: 0.4560000000000002
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 2122461083512106058}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: telephone take
+  - m_Version: 1
+    m_Start: 2.75
+    m_ClipIn: 0
+    m_Asset: {fileID: -434404712471628372}
+    m_Duration: 1.6726666666666667
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 2122461083512106058}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: telephone ring
   m_Markers:
     m_Objects: []
   m_TrackProperties:
@@ -1262,7 +1502,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1.65
+    m_Start: 5.416666666666667
     m_ClipIn: 0
     m_Asset: {fileID: -5472306340272831596}
     m_Duration: 2
@@ -1327,11 +1567,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 16.76666666666667
-    m_PreExtrapolationTime: 1.65
+    m_PostExtrapolationTime: 16.766666666666655
+    m_PreExtrapolationTime: 5.416666666666667
     m_DisplayName: FadeIn
   - m_Version: 1
-    m_Start: 20.416666666666668
+    m_Start: 24.183333333333323
     m_ClipIn: 0
     m_Asset: {fileID: 7493480139417850807}
     m_Duration: 2
@@ -1400,7 +1640,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: FadeOut
   - m_Version: 1
-    m_Start: 22.416666666666668
+    m_Start: 26.183333333333323
     m_ClipIn: 0
     m_Asset: {fileID: -8848296682733185391}
     m_Duration: 2
@@ -1465,11 +1705,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 3.5666666666666664
+    m_PostExtrapolationTime: 3.56666666666667
     m_PreExtrapolationTime: 0
     m_DisplayName: FadeIn
   - m_Version: 1
-    m_Start: 27.983333333333334
+    m_Start: 31.749999999999993
     m_ClipIn: 0
     m_Asset: {fileID: 3929702592792645622}
     m_Duration: 2
@@ -1538,7 +1778,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: FadeOut
   - m_Version: 1
-    m_Start: 29.983333333333334
+    m_Start: 33.75000000000003
     m_ClipIn: 0
     m_Asset: {fileID: 8080502664637976653}
     m_Duration: 2
@@ -1603,11 +1843,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 3.5
+    m_PostExtrapolationTime: 3.500000000000014
     m_PreExtrapolationTime: 0
     m_DisplayName: FadeIn
   - m_Version: 1
-    m_Start: 35.483333333333334
+    m_Start: 39.25000000000004
     m_ClipIn: 0
     m_Asset: {fileID: -2592082547309543509}
     m_Duration: 2
@@ -1717,7 +1957,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 3.65
+    m_Start: 7.416666666666668
     m_ClipIn: 0
     m_Asset: {fileID: 7149284255991509945}
     m_Duration: 2.7348072562358277
@@ -1786,7 +2026,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Start1-koch
   - m_Version: 1
-    m_Start: 11.283333333333333
+    m_Start: 15.049999999999997
     m_ClipIn: 0
     m_Asset: {fileID: 5991201654986593013}
     m_Duration: 1.6557142857142857
@@ -1855,7 +2095,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Start3-koch
   - m_Version: 1
-    m_Start: 17.566666666666666
+    m_Start: 21.33333333333333
     m_ClipIn: 0
     m_Asset: {fileID: -7839954384980243454}
     m_Duration: 2.396780045351474

@@ -32,7 +32,6 @@ public class LevelChange : MonoBehaviour
 
     IEnumerator SwitchScene()
     {
-        player.disableInput = true;
         player.maxSpeed = 0;
         fadeAnimator.SetTrigger("FadeOut");
         yield return new WaitForSeconds(4);
