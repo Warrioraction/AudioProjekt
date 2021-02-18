@@ -6366,11 +6366,11 @@ MonoBehaviour:
   jumpHeight: 11
   gravityScale: 2
   maxCameraXLeft: 7
-  maxCameraXRight: 114
+  maxCameraXRight: 116
   backgroundScrollingSpeed: 0.8
   backgroundY: 0
   backgroundZ: 0
-  disableInput: 0
+  noclip: 0
   mainCamera: {fileID: 519420031}
   background: {fileID: 1311335914}
   cameraRespawnPoint: {x: 7.07, y: 0, z: -15.2}
